@@ -1,0 +1,244 @@
+content provider 란 안드로이드 앱에서 만든 db 를 다른앱에서도 이용할수 있도록 하는거다.
+그니깐 앱을 자체적으로 만들때 아예 database가 깔려서 정보도 그안에 들어있는 상태로 앱을 설치하도록 되는것이다.
+
+
+extends ContentProvider
+
+oncreate
+query(string 4개)
+getType
+insert
+delete
+update
+
+
+offline cache 란 서버에서 받는 데이터를 offline 상태에서도 볼수 있도록 하는 것.
+데이터를 임시적으로 sqlite 나 room api를 이용하여 저장해둔뒤,
+오프라인 상태에서 꺼내 볼수 있도록 하는 것.
+
+그러면 개인트레이너 정보 (서버) -> sql data -> offline ->get data
+ 교육 자료 (서버) -> sql data -> offline -> get data
+
+
+taskDao -> make database
+ 
+
+
+1. Don't Drink Sugar Calories
+Sugary drinks are the most fattening things you can put into your body.
+
+This is because liquid sugar calories don't get registered by the brain in the same way as calories from solid foods (1).
+
+For this reason, when you drink soda, you end up eating more total calories (2, 3).
+
+Sugary drinks are strongly associated with obesity, type 2 diabetes, heart disease and all sorts of health problems (4, 5, 6, 7).
+
+Keep in mind that fruit juices are almost as bad as soda in this regard. They contain just as much sugar, and the small amounts of antioxidants do NOT negate the harmful effects of the sugar (8).
+
+2. Eat Nuts
+Despite being high in fat, nuts are incredibly nutritious and healthy.
+
+They are loaded with magnesium, vitamin E, fiber and various other nutrients (9).
+
+Studies show that nuts can help you lose weight, and may help fight type 2 diabetes and heart disease (10, 11, 12).
+
+Additionally, about 10-15% of the calories in nuts aren't even absorbed into the body, and some evidence suggests that they can boost metabolism (13).
+
+In one study, almonds were shown to increase weight loss by 62% compared to complex carbohydrates (14).
+
+
+3. Avoid Processed Junk Food (Eat Real Food Instead)
+All the processed junk foods in the diet are the biggest reason the world is fatter and sicker than ever before.
+
+These foods have been engineered to be "hyper-rewarding," so they trick our brains into eating more than we need, even leading to addiction in some people (15).
+
+They are also low in fiber, protein and micronutrients (empty calories), but high in unhealthy ingredients like added sugar and refined grains.
+
+광고
+
+
+4. Don't Fear Coffee
+Coffee has been unfairly demonized. The truth is that it's actually very healthy.
+
+Coffee is high in antioxidants, and studies show that coffee drinkers live longer, and have a reduced risk of type 2 diabetes, Parkinson's disease, Alzheimer's and numerous other diseases (16, 17, 18, 19, 20, 21).
+
+
+5. Eat Fatty Fish
+Pretty much everyone agrees that fish is healthy.
+
+This is particularly true of fatty fish, like salmon, which is loaded with omega-3 fatty acids and various other nutrients (22).
+
+Studies show that people who eat the most fish have a lower risk of all sorts of diseases, including heart disease, dementia and depression (23, 24, 25).
+
+
+6. Get Enough Sleep
+The importance of getting enough quality sleep can not be overstated.
+
+It may be just as important as diet and exercise, if not more.
+
+Poor sleep can drive insulin resistance, throw your appetite hormones out of whack and reduce your physical and mental performance (26, 27, 28, 29).
+
+What's more, it is one of the strongest individual risk factors for future weight gain and obesity. One study showed that short sleep was linked to 89% increased risk of obesity in children, and 55% in adults (30).
+
+7. Take Care of Your Gut Health With Probiotics and Fiber
+The bacteria in your gut, collectively called the gut microbiota, are sometimes referred to as the "forgotten organ."
+
+These gut bugs are incredibly important for all sorts of health-related aspects. A disruption in the gut bacteria is linked to some of the world's most serious chronic diseases, including obesity (31, 32).
+
+A good way to improve gut health, is to eat probiotic foods (like live yogurt and sauerkraut), take probiotic supplements, and eat plenty of fiber. Fiber functions as fuel for the gut bacteria (33, 34).
+
+8. Drink Some Water, Especially Before Meals
+Drinking enough water can have numerous benefits.
+
+One important factor, is that it can help boost the amount of calories you burn.
+
+According to 2 studies, it can boost metabolism by 24-30% over a period of 1-1.5 hours. This can amount to 96 additional calories burned if you drink 2 liters (67 oz) of water per day (35, 36).
+
+The best time to drink water is half an hour before meals. One study showed that half a liter of water, 30 minutes before each meal, increased weight loss by 44% (37).
+
+9. Don't Overcook or Burn Your Meat
+Meat can be a nutritious and healthy part of the diet. It is very high in protein, and contains various important nutrients.
+
+The problems occur when meat is overcooked and burnt. This can lead to the formation of harmful compounds that raise the risk of cancer (38).
+
+So, eat your meat, just don't overcook or burn it.
+
+10. Avoid Bright Lights Before Sleep
+When we're exposed to bright lights in the evening, this disrupts production of the sleep hormone melatonin (39, 40).
+
+An interesting "hack" is to use a pair of amber-tinted glasses that block blue light from entering your eyes in the evening.
+
+This allows melatonin to be produced as if it were completely dark, helping you sleep better (41, 42).
+
+11. Take Vitamin D3 If You Don't Get Much Sun
+Back in the day, most people got their vitamin D from the sun.
+
+The problem is that most people don't get much sun these days. They either live where there is no sun, or they stay inside most of the day or use sunscreen when they go out.
+
+According to data from 2005-2006, about 41.6% of the US population is deficient in this critical vitamin (43).
+
+If adequate sun exposure is not an option for you, then supplementing with vitamin D has been shown to have numerous benefits for health.
+
+This includes improved bone health, increased strength, reduced symptoms of depression and a lower risk of cancer, to name a few. Vitamin D may also help you live longer (44, 45, 46, 47, 48, 49, 50).
+
+12. Eat Vegetables and Fruits
+Vegetables and fruits are the "default" health foods, and for good reason.
+
+They are loaded with prebiotic fiber, vitamins, minerals and all sorts of antioxidants, some of which have potent biological effects.
+
+Studies show that people who eat the most vegetables and fruits live longer, and have a lower risk of heart disease, type 2 diabetes, obesity and all sorts of diseases (51, 52).
+
+13. Make Sure to Eat Enough Protein
+Eating enough protein is incredibly important, and many experts believe that the recommended daily intake is too low.
+
+Protein is particularly important for weight loss, and works via several different mechanisms (53).
+
+A high protein intake can boost metabolism significantly, while making you feel so full that you automatically eat fewer calories. It can also cut cravings and reduce the desire for late-night snacking (54, 55, 56, 57).
+
+Eating plenty of protein has also been shown to lower blood sugar and blood pressure levels (58, 59).
+
+14. Do Some Cardio, or Just Walk More
+Doing aerobic exercise (or cardio) is one of the best things you can do for your mental and physical health.
+
+It is particularly effective at reducing belly fat, the harmful type of fat that builds up around your organs. Reduced belly fat should lead to major improvements in metabolic health (60, 61, 62).
+
+15. Don't Smoke or do Drugs, and Only Drink in Moderation
+If you're a tobacco smoker, or abuse drugs, then diet and exercise are the least of your worries. Tackle those problems first.
+
+If you choose to include alcohol in your life, then do so in moderation only, and consider avoiding it completely if you have alcoholic tendencies.
+
+16. Use Extra Virgin Olive Oil
+Extra virgin olive oil is the healthiest fat on the planet.
+
+It is loaded with heart-healthy monounsaturated fats and powerful antioxidants that can fight inflammation (63, 64, 65).
+
+Extra virgin olive oil leads to many beneficial effects on heart health, and people who consume olive oil have a much lower risk of dying from heart attacks and strokes (66, 67).
+
+17. Minimize Your Intake of Added Sugars
+Added sugar is the single worst ingredient in the modern diet.
+
+Small amounts are fine, but when people eat large amounts, it can wreak havoc on metabolic health (68).
+
+A high intake of added sugar is linked to numerous diseases, including obesity, type 2 diabetes, heart disease and many forms of cancer (69, 70, 71, 72, 73).
+
+18. Don't Eat a Lot of Refined Carbohydrates
+Not all carbs are created equal.
+
+Refined carbs have been highly processed, and have had all the fiber removed from them. They are low in nutrients (empty calories), and can be extremely harmful.
+
+Studies show that refined carbohydrates are linked to overeating and numerous metabolic diseases (74, 75, 76, 77, 78).
+
+19. Don't Fear Saturated Fat
+The "war" on saturated fat was a mistake.
+
+It is true that saturated fat raises cholesterol, but it also raises HDL (the "good") cholesterol and changes the LDL from small to large, which is linked to a lower risk of heart disease (79, 80, 81, 82).
+
+New studies that included hundreds of thousands of people have shown that there is no link between saturated fat consumption and heart disease (83, 84).
+
+20. Lift Heavy Things
+Lifting weights is one of the best things you can do to strengthen your body and improve your body composition.
+
+It also leads to massive improvements in metabolic health, including improved insulin sensitivity (85, 86).
+
+The best approach is to go to a gym and lift weights, but doing body weight exercises can be just as effective.
+
+21. Avoid Artificial Trans Fats
+Artificial trans fats are harmful, man-made fats that are strongly linked to inflammation and heart disease (87, 88, 89, 90).
+
+It is best to avoid them like the plague.
+
+22. Use Plenty of Herbs and Spices
+There are many incredibly healthy herbs and spices out there.
+
+For example, ginger and turmeric both have potent anti-inflammatory and antioxidant effects, leading to various health benefits (91, 92, 93, 94).
+
+You should make an effort to include as many different herbs and spices as you can. Many of them can have powerful beneficial effects on your health.
+
+23. Take Care of Your Relationships
+Social relationships are incredibly important. Not only for your mental wellbeing, but your physical health as well.
+
+Studies show that people who are close with friends and family are healthier and live much longer than those who are not (95, 96, 97).
+
+24. Track Your Food Intake Every Now and Then
+The only way to know exactly what you are eating, is to weigh your foods and use a nutrition tracker like MyFitnesspal or Cron-o-meter.
+
+This is important to know how many calories you are eating. It is also essential to make sure that you're getting in enough protein, fiber and micronutrients.
+
+Studies show that people who track their food intake in one way or another tend to be more successful at losing weight and sticking to a healthy diet (98).
+
+Basically, anything that increases your awareness of what you are eating is likely to help you succeed.
+
+I personally track everything I eat for a few days in a row, every few months. Then I know exactly where to make adjustments in order to get closer to my goals.
+
+25. If You Have Excess Belly Fat, Get Rid of it
+Not all body fat is equal.
+
+It is mostly the fat in your abdominal cavity, the belly fat, that causes problems. This fat builds up around the organs, and is strongly linked to metabolic disease (99, 100).
+
+For this reason, your waist size may be a much stronger marker for your health than the number on the scale.
+
+Cutting carbs, eating more protein, and eating plenty of fiber are all excellent ways to get rid of belly fat (101, 102, 103, 104).
+
+This article lists 6 evidence-based ways to lose belly fat.
+
+26. Don't go on a "Diet"
+Diets are notoriously ineffective, and rarely work well in the long term.
+
+In fact, "dieting" is one of the strongest predictors for future weight gain (105).
+
+Instead of going on a diet, try adopting a healthier lifestyle. Focus on nourishing your body, instead of depriving it.
+
+Weight loss should follow as a natural side effect of better food choices and improved metabolic health.
+
+27. Eat Eggs, and Don't Throw Away The Yolk
+Whole eggs are so nutritious that they're often referred to as "nature's multivitamin."
+
+It is a myth that eggs are bad for you because of the cholesterol. Studies show that they have no effect on blood cholesterol in the majority of people (106).
+
+Additionally, a massive review study that included 263,938 individuals found that egg consumption had no association with the risk of heart disease (107).
+
+What we're left with is one of the most nutritious foods on the planet, and the yolk is where almost all of the nutrients are found.
+
+Telling people to throw away the yolk is among the worst pieces of advice in the history of nutrition.
+
+Written by Kris Gunnars, BSc on March 24, 2015

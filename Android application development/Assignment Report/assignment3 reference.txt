@@ -1,0 +1,79 @@
+json 언어를 받는것을 먼저 보자 -> 잘 나옴
+
+근데 내가볼땐 메인이 돌면서 Asynctack 가 도는 것같음 동시에 거의 도는 것 같음 
+근데 내가 list 를 call 함으로써 ㅇ
+이게 list.size()가 null 이다 이걸 자꾸 불러대니깐 null point exception이 호출된다.
+
+그러면 이걸 동시에 하지 않고 
+먼저 네트워크를 연결하고 json을 받은후에 list.size를 호출 시켜야한다.
+
+
+list = new arraylist<> 이걸 안함 //*********
+
+
+이제 watch 버튼 누르면 php 연결 후 mysql update를 해서 view값을 올리자..
+
+프로필 사진 
+서버 에서 사진 받아오기
+ㅇ
+adapter_activity 에 쓰레드 사용해서 서버에 연결하기
+
+쓰레드 만들기
+
+런에이블 안에 런//
+
+
+완료
+
+
+
+
+이제 function 2 
+전화 와 메세지 보내기
+
+
+1. 전자 메일
+2. sms 메세지
+3. 전화
+
+table trainer
+
+create table trainer(trainer_name varchar(20) not null, email_address varchar(50) not null, phone_number varchar(20) not null, primary key (trainer_name));
+
+
+일단 write php  // complete
+and rewrite Activity_Looking
+and rewrite Adapter 
+
+
+
+now function3
+google map
+
+
+
+
+
+
+
+   SHA1: 80:E1:F7:BD:03:06:57:5E:4B:1B:16:9C:3C:DF:EA:B6:DE:07:83:D1
+
+
+api key 
+AIzaSyBFtZuJ3JVUalK8UL_DlutgbmxsSsSdSZg
+
+
+
+
+
+1. 비디오 보여주기
+2. 클릭률 보여주기 
+3. 이메일 보여주기
+4 .sms 보여주기
+5. 전화 보여주기
+6. 지도 보여주기
+
+
+function 3 complete!
+
+

@@ -1,0 +1,11 @@
+[User]-(count movements)
+[User]-(count time)
+[User]-(Add Daily Weight)
+[User]-(watch exercise positions)
+[User]-(Listening to music)
+(Check number of movements and time)>(count time)
+(Check number of movements and time)>(count movements)
+(Introduction to various sports positions)>(count time)
+(Introduction to various sports positions)>(watch exercise positions)
+(Record Daily Weight)> (Add Daily Weight)
+
